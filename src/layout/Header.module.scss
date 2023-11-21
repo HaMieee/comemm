@@ -8,7 +8,7 @@
 }
 .site_header{
     padding-left: 70px;
-    padding-right: 120px;
+    padding-right: 70px;
     height: 90px;
     display: flex;
     align-items: center;
@@ -37,11 +37,28 @@
     color: white;
 }
 .icon_home,.icon_admin, .icon_heart, .icon_cart, .icon_ship {
-    padding-right: 12px;
+    padding-right: 14px;
     color: white;
     font-size: 28px;
 
   }
+.icon_cart{
+    position: relative;
+
+    .icon_count{
+    background-color: rgba(230,126,34,.8);
+    border: 1px solid #738136;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1em;
+    padding: 3px 7px;
+    position: absolute;
+    right: 12px;
+    top: -15px;
+    transform: translate3d(40%,40%,0);
+    }
+}
 
 .header_item{
     display: flex;
@@ -110,7 +127,7 @@ li{
 }
 
 .item_text h3{
-    color: rgb(199, 173, 27);
+    color: #ffcc48;
     margin-bottom: 5px;
 }
 .item_text p{

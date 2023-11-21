@@ -1,0 +1,20 @@
+
+.icon_cart{
+    position: relative;
+    padding-right: 12px;
+    color: white;
+    font-size: 32px;
+    .icon_count{
+    background-color: rgba(230,126,34,.8);
+    border: 1px solid #738136;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1em;
+    padding: 3px 7px;
+    position: absolute;
+    right: 12px;
+    top: -15px;
+    transform: translate3d(40%,40%,0);
+    }
+}
