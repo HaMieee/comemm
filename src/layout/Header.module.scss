@@ -35,30 +35,16 @@
     align-items: center;
     justify-content: center;
     color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1rem;
 }
-.icon_home,.icon_admin, .icon_heart, .icon_cart, .icon_ship {
+.icon_home,.icon_admin, .icon_heart, .icon_cart {
     padding-right: 14px;
     color: white;
-    font-size: 28px;
+    font-size: 32px;
 
   }
-.icon_cart{
-    position: relative;
-
-    .icon_count{
-    background-color: rgba(230,126,34,.8);
-    border: 1px solid #738136;
-    border-radius: 100px;
-    color: #fff;
-    font-size: 13px;
-    line-height: 1em;
-    padding: 3px 7px;
-    position: absolute;
-    right: 12px;
-    top: -15px;
-    transform: translate3d(40%,40%,0);
-    }
-}
 
 .header_item{
     display: flex;
@@ -106,30 +92,11 @@ li{
 .img_1{
     width: 100%;
 }
-.container{
-    height: 80px;
-    padding-left: 100px;
-    padding-right: 140px;
+.icon_admin{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background: #92a052;
 }
-.sub_container{
-    padding-right: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 2px dashed rgb(97, 111, 67);
-}
-.sub_container:last-child{
-    border: none;
-}
-
-.item_text h3{
-    color: #ffcc48;
-    margin-bottom: 5px;
-}
-.item_text p{
-    color: white;
+.name{
+    padding-top: 5px;
+    font-size: 1.2rem;
+    padding-left: 5px;
 }

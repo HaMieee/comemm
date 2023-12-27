@@ -1,28 +1,62 @@
-import React from "react";
 import classNames from "classnames/bind";
-import styles from "./Header.module.scss";
-import { FaHeart, FaPiggyBank } from "react-icons/fa6";
-import { FaShippingFast } from "react-icons/fa";
-import { MdGroups } from "react-icons/md";
-import { IoCart, IoPersonSharp, IoHome } from "react-icons/io5";
-import Input from "../component/input/Input";
-import Slide from "./Slide";
+import { isEmpty } from "lodash";
+import React, { useEffect, useState } from "react";
+import { FaHeart } from "react-icons/fa6";
+import { IoHome, IoPersonSharp } from "react-icons/io5";
+import { Link, useNavigate } from "react-router-dom";
 import Cart from "../component/cart/Cart";
-import { Link } from "react-router-dom";
+import InputSearch from "../component/input/InputSearch";
+import { fetchCart } from "../services/cart.service";
+import styles from "./Header.module.scss";
 
 let cx = classNames.bind(styles);
 
-function Header() {
+const Header = (props) => {
+  // const [user, setUser] = useState(JSON.parse(localStorage.getItem('user')))
+  const [cart, setCart] = useState({});
+  const dataStorage = JSON.parse(localStorage.getItem("user")) || null;
+  const { id } = dataStorage || 0;
+
+  const user = JSON.parse(localStorage.getItem("user"));
+
+  const { dataCart } = props;
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        if (!isEmpty(id)) {
+          const result = await fetchCart(id);
+          setCart(result);
+        }
+      } catch (e) {
+        console.log(e.message);
+      }
+    };
+    fetchData();
+  }, []);
+
+  // useEffect(() => {
+  //   setCart({
+  //     ...cart,
+  //     products: dataCart.products
+  //   })
+  // }, [props])
+
   return (
     <div className={cx("app")}>
       <div className={cx("wrapper")}>
         <div className={cx("site_header")}>
           <div className={cx("header_logo")}>
             <Link to={"/"}>
-              <img src="src/img/logo2.png" alt="logo" />
+              <img
+                src="https://res.cloudinary.com/dhoclobux/image/upload/v1701760717/comem/logo2_bqeykw.png"
+                alt="logo"
+              />
             </Link>
           </div>
-          <Input />
+          <InputSearch />
           <div className={cx("header_custom")}>
             <div className={cx("home")}>
               <span className={cx("icon_home")}>
@@ -30,17 +64,32 @@ function Header() {
               </span>
               Hệ thống cửa hàng
             </div>
-            <div className={cx("icon_admin")}>
-              <span>
-                <IoPersonSharp />
-              </span>
-            </div>
+
+            {user ? (
+              <Link to={"/profile"}>
+                <div className={cx("icon_admin")}>
+                  <span>
+                    <IoPersonSharp />
+                  </span>
+                  <span className={cx("name")}>{user.name}</span>
+                </div>
+              </Link>
+            ) : (
+              <Link to={"/login"}>
+                <div className={cx("icon_admin")}>
+                  <span>
+                    <IoPersonSharp />
+                  </span>
+                </div>
+              </Link>
+            )}
+
             <div className={cx("icon_heart")}>
-              <span>
+              <span onClick={() => navigate('/bills')}>
                 <FaHeart />
               </span>
             </div>
-            <Cart />
+            <Cart dataCart={cart} />
           </div>
         </div>
         <div className={cx("header_item")}>
@@ -65,59 +114,9 @@ function Header() {
             </ul>
           </div>
         </div>
-        <div className={cx("banner_img")}>
-          {/* <img className={cx("img_1")}src="https://static.comem.vn/uploads/September2023/6.jpg " alt /> */}
-          <Slide />
-        </div>
-        <div className={cx("container")}>
-          <div className={cx("sub_container")}>
-            <div className={cx("icon_ship")}>
-              <span>
-                <FaShippingFast />
-              </span>
-            </div>
-            <div className={cx("item_text")}>
-              <h3>Ship COD toàn quốc</h3>
-              <p>Thanh toán khi nhận hàng</p>
-            </div>
-          </div>
-          <div className={cx("sub_container")}>
-            <div className={cx("icon_ship")}>
-              <span>
-                <FaShippingFast />
-              </span>
-            </div>
-            <div className={cx("item_text")}>
-              <h3>Miễn phí đổi-trả</h3>
-              <p>Đối với sản phẩm lỗi hoặc do vận chuyển </p>
-            </div>
-          </div>
-          <div className={cx("sub_container")}>
-            <div className={cx("icon_ship")}>
-              <span>
-                <MdGroups />
-              </span>
-            </div>
-            <div className={cx("item_text")}>
-              <h3>Ưu đãi thành viên</h3>
-              <p>Đăng ký thành viên để nhận nhiều ưu đãi</p>
-            </div>
-          </div>
-          <div className={cx("sub_container")}>
-            <div className={cx("icon_ship")}>
-              <span>
-                <FaPiggyBank />
-              </span>
-            </div>
-            <div className={cx("item_text")}>
-              <h3>Ưu đãi combo</h3>
-              <p>Mua theo combo, càng mua càng rẻ</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
-}
+};
 
 export default Header;

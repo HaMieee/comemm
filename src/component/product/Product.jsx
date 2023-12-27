@@ -5,9 +5,12 @@ import { GiStarsStack } from "react-icons/gi";
 import { isEmpty } from "lodash";
 import axios from "axios";
 import { Link } from "react-router-dom";
+
+
+
 let cx = classNames.bind(styles);
 
-const Product = () => {
+const Product = ({title}) => {
   const [dataProducts, setDataProducts] = useState([]);
 
   const fetchData = async () => {
@@ -39,7 +42,7 @@ const Product = () => {
           <span>
             <GiStarsStack />
           </span>
-          <h2>SẢN PHẨM MỚI RA MẮT</h2>
+          <h2>{title}</h2>
           <span>
             <GiStarsStack />
           </span>

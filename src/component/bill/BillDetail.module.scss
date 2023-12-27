@@ -1,0 +1,69 @@
+.bill_detail{
+    background-color: white;
+    width: 100%;
+    padding-top: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    .container{
+        width: 80%;
+       .list_product{
+        .product{
+            margin-top: 24px;
+            width: 90%;
+            padding: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            border:  2px solid gainsboro;
+            border-radius: 10px;
+            .img{
+                width: 80px;
+                height:80px;
+                border-radius: 8px;
+            }
+            p{
+                color: black;
+                font-size: 1.2rem;
+            }
+        }
+       }
+    }
+}
+
+.money{
+    width: 90%;
+    margin-top: 12px;
+    .sum{
+        padding-left: 12px;
+        padding-right: 12px;
+        height: 40px;
+        background-color: rgb(240, 238, 238);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 4px;
+        color:black;
+        font-size: 1.2rem;
+        font-style: italic;
+    }
+}
+
+.profile{
+    width: 50%;
+    .box_profile{
+        margin-top: 40px;
+        border: 2px solid #f4f5ef;
+        border-radius: 5px;
+        padding: 12px;
+        .item_profile{
+            padding: 5px;
+            font-size: 1.2rem;
+        }
+    }
+}

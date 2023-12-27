@@ -1,0 +1,314 @@
+.cart_site{
+    width: 100%;
+    display: flex;
+    .cart_container{
+        width: 95%;
+        display: flex;
+        // align-items: center;
+        justify-content:flex-start;
+        .checkout_content{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+    }
+}
+.checkout_form_infor{
+    width:70%;
+    h2{
+        color: #4c503d;
+        font-size: 1.5rem;
+        margin-bottom: 12px;
+    }
+    .form_inner{
+        width: 100%;
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .form_control{
+            width: 100%;
+            height: 40px;
+            border: 1px solid gainsboro ;
+            border-radius: 5px ;
+            padding-left: 12px;
+            margin-right: 12px;
+            outline: none;
+            
+        }
+        textarea{
+            padding-top: 12px;
+            color: black;
+            font-size: 1rem;
+        }
+
+        
+    }
+}
+.form_selection{
+    display: flex; 
+    width: 100%;
+    height: 40px;
+    .selection{
+        margin-right: 12px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid gainsboro ;
+        border-radius: 5px ;
+        outline: none;
+        padding-left: 12px;
+    }
+}
+.form_memo{
+    width: 100%;
+    height: 50px;
+    .form_text{
+        width: 98%;
+        height: 70px;
+        margin-top: 36px;
+        border: 1px solid gainsboro ;
+        border-radius: 5px ;
+        padding-left: 5px;
+    }
+    textarea{
+        padding-top: 24px;
+        color: black;
+        font-size: 1rem;
+        padding-left: 12px;
+        outline: none;
+    }
+}
+
+.payment_method{
+    width: 74%;
+    // margin-top: 50px;
+    padding: 20px;
+    h2{
+        text-align: center;
+    }
+    .item{
+        margin-top: 12px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        .item_box{
+        height: 70px;
+        background: #fff;
+        border: 2px solid #f4f5ef;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        gap: 12px;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 10px rgb(154, 145, 145);
+            .img_payment{
+                width: 20px;
+                height: 20px;
+            }
+            span{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.checkout{
+    margin-left: 250px;
+    width: 100%;
+    height: 50px;
+    // padding: 12px;
+    button{
+        margin-top: 16px;
+        width: 68%;
+        text-align: center;
+        background-color: #e67e22;
+        color: white;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 5px;
+        height: 48px;
+        line-height: 5px;
+        font-weight: 600;
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(205, 101, 10);
+        }
+    }
+}
+
+.checkout_cart{
+    width: 40%;
+     padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .cart_widget{
+        margin-right: 24px;
+         padding:  20px;
+        background: #fff;
+        border: 2px solid #f4f5ef;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        h2{
+            margin-bottom: 24px;
+        }
+    }
+.product{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    border-bottom: 12px;
+    width: 100%;
+    .cart_item{
+        padding: 20px;
+        width: 90%;
+        display: flex;
+        // align-items: center;
+        justify-content: space-around;
+        .image{
+            width: 90px;
+            height: 90px;
+        }
+        .content{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .top{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .title{
+                    width:95%;
+                    color: #738136;
+                    font-size: 1.1rem;
+                    text-align: center;
+                    padding-left: 12px;
+                    font-weight: 600;
+                }
+                span{
+                    margin-left: 20px;
+                    display: flex;
+                    font-size: 20px;
+                    color: #979893;
+                    // margin-top: 12px;
+                    &:hover{
+                        cursor: pointer;
+                        color: #e67e22;
+                    }
+                }
+            }
+            .bottom{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .quantity{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #4c503d;
+                    font-size: 16px;
+                    height: 32px;
+                    line-height: 19px;
+                    width: 85px;
+                    margin-top: 10px;
+                    padding-top: 2px;
+                    border: 1px solid gainsboro;
+                    border-radius: 20px;
+                    span{
+                        font-size: 20px;
+                        padding-right: 3px;
+                        color: #738136;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                    input{
+                        width: 28px;
+                        border: none;
+                        font-size: 1.2rem;
+                        text-align: center;
+                        outline: none;
+                    }
+                }
+                .price{
+                    margin-top: 12px;
+                    width: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    .old_price{
+                        color: #949591;
+                        text-decoration: line-through;
+                        font-weight: 700;
+                        font-size: 1.2rem;
+                    }
+                    .new_price{
+                        margin-left: 20px;
+                        color:#e67e22;
+                        font-weight: 700;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+                        
+        }
+
+    }
+}
+    .money{
+        margin-top: 24px;
+        margin-right: 24px;
+        padding:  24px;
+        background: #fff;
+        border: 2px solid #f4f5ef;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        p{
+            margin-bottom: 18px;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+        .checkout_coupon{
+            background: #f4f5ef;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            font-size: 1.4rem;
+            input{
+                outline: none;
+                margin-left: 12px;
+                width: 360px;
+                height: 40px;
+                border: none;
+                padding-left: 12px;
+            }
+            button{
+                background-color: #e67e22;
+                color: #f4f5ef;
+                height: 40px;
+                width: 100px;
+                border: none;
+                margin-right: 12px;
+                text-align: center;
+                line-height: 30px;
+            }
+        }
+    }
+
+}
+
+
+.item_money{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

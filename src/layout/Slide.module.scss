@@ -1,0 +1,33 @@
+.container{
+    height: 80px;
+    padding-left: 100px;
+    padding-right: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #92a052;
+}
+.sub_container{
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px dashed rgb(97, 111, 67);
+}
+.sub_container:last-child{
+    border: none;
+}
+
+.item_text h3{
+    color: #ffcc48;
+    margin-bottom: 5px;
+}
+.item_text p{
+    color: white;
+}
+.icon_home,.icon_admin, .icon_heart, .icon_cart, .icon_ship {
+    padding-right: 14px;
+    color: white;
+    font-size: 28px;
+
+  }

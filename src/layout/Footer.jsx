@@ -51,7 +51,7 @@ function Footer() {
             <button>Đăng ký</button>
           </div>
           <div>
-            <img src="src\img\logo2.png" alt="logo"></img>
+            <img src="https://res.cloudinary.com/dhoclobux/image/upload/v1701761107/comem/comem_lsr2zr.png" alt="logo"></img>
           </div>
           <h1>Mỹ phẩm thiên nhiên lành và thật </h1>
           <div className={cx("footer_social")}>
