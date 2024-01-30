@@ -1,0 +1,772 @@
+{
+    "productNew": [
+      {
+        "id": 1,
+        "name":"Kem dưỡng sáng da mờ nám Sơ-ri Vitamin C",
+        "price" : 435.000,
+        "oldPrice": 495.000,
+        "imgUrl":"https://static.comem.vn/uploads/October2023/kem-duong-sang-da-mo-nam-so-ri-vitamin-c-1_sp.jpg",
+        "description":"Nằm trong bộ sản phẩm chăm sóc da chiết xuất từ Sơ-ri, kem dưỡng sáng da mờ nám Sơ-ri Vitamin C giúp cấp ẩm cho da, làm sáng da, hỗ trợ làm mờ nếp nhăn, đốm nâu, vết nám trên da, đem lại làn da căng mịn. Cùng Cỏ khám phá vì sao nên chọn dòng kem dưỡng này trong chu trình skincare hàng ngày nhé!",
+        "data":[
+            {
+                "imgDesc":"https://static.comem.vn/uploads/October2023/kem-duong-sang-da-mo-nam-so-ri-vitamin-c-1_m.jpg"
+                
+            },
+            {
+                "imgDesc":"https://static.comem.vn/uploads/October2023/kem-duong-sang-da-mo-nam-so-ri-vitamin-c-7_m.jpg"
+                
+            },
+            {
+                "imgDesc":"https://static.comem.vn/uploads/October2023/kem-duong-sang-da-mo-nam-so-ri-vitamin-c-2_53_m.jpg"
+                
+            },
+            {
+                "imgDesc":"https://static.comem.vn/uploads/October2023/kem-duong-sang-da-mo-nam-so-ri-vitamin-c-5_m.jpg"
+                
+            },
+            {
+                "imgDesc":"https://static.comem.vn/uploads/November2023/kem-duong-da-vitamin-c-tri-nam_m.jpg"
+            }
+        ]
+
+      },
+      {
+        "id": 2,
+        "name":"Serum sáng da mờ nám Sơ-ri Vitamin C",
+        "price" : 465.000,
+        "oldPrice": 515.000,
+        "imgUrl":"https://static.comem.vn/uploads/October2023/serum-sang-da-mo-nam-so-ri-vitamin-c-1_sp.jpg",
+        "description":"Sạm nám, tàn nhang, da không đều màu… từ lâu đã trở thành vấn đề đau đầu của nhiều cô gái, khiến bạn mất tự tin. Serum sáng da mờ nám Sơ-ri vitamin C là dòng sản phẩm mới nhà Cỏ với chiết xuất từ quả Sơ-ri có công dụng hiệu quả trong việc cải thiện các tình trạng da trên, cho làn da căng mịn.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 3,
+        "name":"Combo Son Nhã Và Son dưỡng Nhiên",
+        "price" : 450.000,
+        "oldPrice": 510.000,
+        "imgUrl":"https://static.comem.vn/uploads/September2023/combo-son-moi-nha-nhien_sp.jpg",
+        "description":"Nằm trong bộ sản phẩm chăm sóc da chiết xuất từ Sơ-ri, kem dưỡng sáng da mờ nám Sơ-ri Vitamin C giúp cấp ẩm cho da, làm sáng da, hỗ trợ làm mờ nếp nhăn, đốm nâu, vết nám trên da, đem lại làn da căng mịn. Cùng Cỏ khám phá vì sao nên chọn dòng kem dưỡng này trong chu trình skincare hàng ngày nhé!",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 4,
+        "name":"Travel Set - Bộ dưỡng da mini 4 sản phẩm cơ bản",
+        "price" : 299.000,
+        "oldPrice": 310.000,
+        "imgUrl":"https://static.comem.vn/uploads/August2023/travel-set-rau-ma_10_sp.jpg",
+        "description":"Bộ Travel Set dưỡng da nhà Cỏ Mềm gồm 2 loại Rau Má và Tơ Tằm là bộ sản phẩm không thể thiếu đối với các nàng khi bận đi công tác xa hay du lịch. Đây chính là người bạn đồng hành giúp nàng có một làn da luôn khỏe mạnh, được nuôi dưỡng và bảo vệ tối ưu. Có bộ Travel Set, bạn có thể tận hưởng mỗi khoảnh khắc với làn da đẹp tự nhiên của mình.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 5,
+        "name":"Serum Sâm 1700 Ngừa Lão Hóa Da",
+        "price" : 580.000,
+        "oldPrice": 610.000,
+        "imgUrl":"https://static.comem.vn/uploads/July2023/serum-sam-1700-ngua-lao-hoa-da-7_sp.png",
+        "description":"Serum Sâm 1700 ngừa lão hóa da giúp dưỡng ẩm, làm mờ các đốm nâu, nếp nhăn trên da, cung cấp dưỡng chất cho làn da căng mịn. Sản phẩm chứa thành phần từ Sâm Lai Châu có công dụng giúp ngăn ngừa lão hóa da hiệu quả.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 6,
+        "name":"Bộ Chăm Sóc Da Chiết Xuất Sâm Ngừa Lão Hóa",
+        "price" : 859.000,
+        "oldPrice": 999.000,
+        "imgUrl":"https://static.comem.vn/uploads/July2023/bo-cham-soc-da-chiet-xuat-sam-6_sp.png",
+        "description":"Bộ chăm sóc da với chiết xuất từ Sâm Lai Châu nhà Cỏ Mềm có công dụng ngăn ngừa lão hóa hiệu quả cho da, cho nàng một làn da khỏe mạnh. Bộ chăm sóc da Sâm với đầy đủ các bước bao gồm.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 7,
+        "name":"Kem Chống Nắng Sâm 1700 SPF 50+",
+        "price" : 395.000,
+        "oldPrice": 410.000,
+        "imgUrl":"https://static.comem.vn/uploads/June2023/kem-chong-nang-sam-1700_sp.png",
+        "description":"Kem chống nắng Sâm 1700 SPF 50+ là sản phẩm kem chống nắng giúp bảo vệ da trước tác hại xấu của các tia UVB, UVA, ô nhiễm môi trường… cho làn da mềm mại, khỏe mạnh hơn. Đồng thời, sản phẩm góp phần che khuyết điểm, trang điểm cho da và hạn chế quá trình lão hóa da sớm.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 8,
+        "name":"Kem Dưỡng Ẩm Sâm 1700 Ngừa Lão Hoá Da",
+        "price" : 520.000,
+        "oldPrice": 580.000,
+        "imgUrl":"https://static.comem.vn/uploads/July2023/kem-duong-am-sam-1700-ngua-lao-hoa-da-1_sp.png",
+        "description":"Kem dưỡng ẩm Sâm 1700 ngừa lão hóa da là sản phẩm giúp dưỡng ẩm da, làm mờ các đốm nâu, nếp nhăn trên da, giúp làn da căng mịn, sáng khỏe. Sản phẩm còn góp phần hạn chế quá trình lão hóa da sớm.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 9,
+        "name":"Kem Chống Nắng Vật Lý Tone-up SPF 50+",
+        "price" : 350.000,
+        "oldPrice": 380.000,
+        "imgUrl":"https://static.comem.vn/uploads/September2023/kem-chong-nang-vat-ly-cho-ba-bau-tre-nho-co-mem_sp.jpg",
+        "description":"Kem chống nắng Vật Lý Tone-up SPF 50+ là sản phẩm giúp chống nắng, bảo vệ da trước tác hại xấu của các tia UVA, UVB và ô nhiễm môi trường đồng thời góp phần dưỡng ẩm, làm sáng da, cho làn da mềm mịn.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 10,
+        "name":"Xịt Thơm Body Mist Colors-White",
+        "price" : 210.000,
+        "oldPrice": 280.000,
+        "imgUrl":"https://static.comem.vn/uploads/December2022/body-mist-loai-nao-thom_sp.png",
+        "description":"Xịt thơm Body Mist Cỏ Mềm là sản phẩm xịt thơm toàn thân, giúp khử mùi hôi khó chịu, lưu lại cho bạn hương thơm nhẹ nhàng, tinh tế và còn góp phần dưỡng ẩm cho da. Sản phẩm Body Mist nhà Cỏ Mềm có thể sử dụng an toàn cho cả làn da nhạy cảm.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 11,
+        "name":"Kem dưỡng sáng da mờ nám Sơ-ri Vitamin C",
+        "price" : 435.000,
+        "oldPrice": 495.000,
+        "imgUrl":"https://static.comem.vn/uploads/October2023/kem-duong-sang-da-mo-nam-so-ri-vitamin-c-1_sp.jpg",
+        "description":"Nằm trong bộ sản phẩm chăm sóc da chiết xuất từ Sơ-ri, kem dưỡng sáng da mờ nám Sơ-ri Vitamin C giúp cấp ẩm cho da, làm sáng da, hỗ trợ làm mờ nếp nhăn, đốm nâu, vết nám trên da, đem lại làn da căng mịn. Cùng Cỏ khám phá vì sao nên chọn dòng kem dưỡng này trong chu trình skincare hàng ngày nhé!",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      },
+      {
+        "id": 12,
+        "name":"Serum sáng da mờ nám Sơ-ri Vitamin C",
+        "price" : 465.000,
+        "oldPrice": 515.000,
+        "imgUrl":"https://static.comem.vn/uploads/October2023/serum-sang-da-mo-nam-so-ri-vitamin-c-1_sp.jpg",
+        "description":"Sạm nám, tàn nhang, da không đều màu… từ lâu đã trở thành vấn đề đau đầu của nhiều cô gái, khiến bạn mất tự tin. Serum sáng da mờ nám Sơ-ri vitamin C là dòng sản phẩm mới nhà Cỏ với chiết xuất từ quả Sơ-ri có công dụng hiệu quả trong việc cải thiện các tình trạng da trên, cho làn da căng mịn.",
+        "data":[
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            },
+            {
+                "imgDesc":"anh 1"
+                
+            }
+        ]
+
+      }
+
+      
+    ],
+    "productBestSale": [
+        {
+            "id": 1,
+            "name":"Son kem nhung",
+            "price" : 160.000,
+            "imgUrl":"https://static.comem.vn/uploads/February2023/son-kem-nhung_sp.jpg",
+            "description":"Son Kem Nhung là dòng son với thành phần thiên nhiên an toàn là bí quyết trang điểm và che khuyết điểm cho môi, giúp dưỡng môi mềm mịn, ngăn ngừa nứt nẻ và không làm thâm môi. Sản phẩm phù hợp với cả đôi môi nhạy cảm.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 2,
+            "name":"Serum Cấp Ẩm Phục Hồi Tơ Tằm",
+            "price" : 245.000,
+            "imgUrl":"https://static.comem.vn/uploads/August2023/serum-ha-to-tam-phuc-hoi-da_sp.png",
+            "description":"Serum cấp ẩm phục hồi Tơ Tằm là sản phẩm serum cấp ẩm cho da, kích thích quá trình tái tạo tế bào da mới, cho làn da mềm mại, khỏe mạnh và còn góp phần ngăn ngừa các nếp nhăn trên da.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 3,
+            "name":"Mặt Nạ Ngừa Mụn Rau Má",
+            "price" : 145.000,
+            "imgUrl":"https://static.comem.vn/uploads/November2022/mat-na-ngua-mun-rau-ma-cho-da-dau_sp.jpg",
+            "description":"Mặt nạ ngừa mụn Rau Má là sản phẩm cần thiết trong chu trình chăm sóc da giúp cấp ẩm và dưỡng da, loại bỏ bã nhờn và tế bào chết trên da, làm thông thoáng lỗ chân lông, góp phần ngăn ngừa mụn trên da. Sản phẩm phù hợp cho mọi loại da.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 4,
+            "name":"Kem Chống Nắng Hây Hây - Bổ Sung AmitoseR Dưỡng Ẩm Thiên Nhiên",
+            "price" : 260.000,
+            "imgUrl":"https://static.comem.vn/uploads/November2022/kem-chong-nang-cho-da-dau-co-mem_sp.jpg",
+            "description":"Kem chống nắng Hây Hây là sản phẩm kem chống nắng của công ty cổ phần mỹ phẩm thiên nhiên Cỏ Mềm giúp bảo vệ da khỏi tác động xấu của các tia cực tím, đem đến cho bạn làn da mềm mại, khỏe mạnh hơn đồng thời góp phần hạn chế quá trình lão hóa cho da và cải thiện tình trạng da dầu mụn.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 5,
+            "name":"Solid Perfume (Nước Hoa Khô Cỏ Mềm)",
+            "price" : 210.000,
+            "imgUrl":"https://static.comem.vn/uploads/January2023/nuoc-hoa-kho-a-paris_sp.jpg",
+            "description":"Nước hoa khô Cỏ Mềm là “vũ khí” bí mật không thể thiếu đối với mỗi cô gái để mang theo bên mình. Vật dụng tuy nhỏ này mang theo hương thơm nhẹ nhàng, tinh tế và còn giúp dưỡng da mềm mịn. Cùng chọn một mùi hương riêng cho mình với nước hoa khô của nhà Cỏ nhé!",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 6,
+            "name":"Bộ Chăm Sóc Da Tơ Tằm - Dưỡng Ẩm, Ngừa Lão Hoá Chuyên Sâu 3 Bước",
+            "price" : 600.000,
+            "imgUrl":"https://static.comem.vn/uploads/May2023/bo-cham-soc-da-to-tam_sp.png",
+            "description":"Bộ chăm sóc da mặt SỮA RỬA MẶT - TONER - KEM DƯỠNG ẨM chính là 3 bước thiết yếu giúp các bạn chăm da đơn giản và hiệu quả. Bộ sản phẩm mới được Cỏ Mềm phát triển từ chiết xuất Tơ tằm thuỷ phân có khả năng giữ lại hàm lượng lớn phân tử nước để cấp ẩm kéo dài giúp da mềm mịn và căng tràn sức sống. Tơ tằm còn chứa tới 18 acid amin thiết yếu với cấu trúc phân tử độc đáo khiến chiết xuất này đem lại khả năng kháng khuẩn và chống oxy hoá đáng ngạc nhiên khi sử dụng trên da. Bộ chăm sóc da mặt gồm những gì? Cùng khám phá ngay sau đây nhé!",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 7,
+            "name":"Serum Cấp Ẩm Phục Hồi Tơ Tằm",
+            "price" : 245.000,
+            "imgUrl":"https://static.comem.vn/uploads/August2023/serum-ha-to-tam-phuc-hoi-da_sp.png",
+            "description":"Serum cấp ẩm phục hồi Tơ Tằm là sản phẩm serum cấp ẩm cho da, kích thích quá trình tái tạo tế bào da mới, cho làn da mềm mại, khỏe mạnh và còn góp phần ngăn ngừa các nếp nhăn trên da.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 8,
+            "name":"Tinh Dầu Treo Thông Minh",
+            "price" : 180.000,
+            "imgUrl":"https://static.comem.vn/uploads/November2022/tinh-dau-treo-dong-que-sa-chanh_sp.jpg",
+            "description":"Tinh dầu treo nguyên chất Cỏ Mềm ngày càng được nhiều người tin dùng và ứng dụng trong đời sống bởi công dụng hữu hiệu mà nó đem lại. Tinh dầu treo nhà Cỏ giúp khử mùi, làm sạch không gian và đem đến cảm giác thư giãn cho người dùng. Vậy tinh dầu treo có những mùi nào và công dụng của chúng ra sao, cùng khám phá nhé!",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 9,
+            "name":"Dầu Gội Thảo Dược Tóc Mây",
+            "price" : 325.000,
+            "imgUrl":"https://static.comem.vn/uploads/November2022/dau-goi-toc-may-co-mem_sp.jpg",
+            "description":"Với chiết xuất từ Bồ kết và thảo dược truyền thống cùng các hoạt chất thiên nhiên, Dầu gội thảo dược Tóc Mây giúp làm sạch tóc và da đầu, ngăn ngừa và cải thiện tình trạng tóc gàu, gãy rụng, chẻ ngọn. Sản phẩm có thể dùng cho mẹ bầu và cả những người có da đầu nhạy cảm.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 10,
+            "name":"Combo Son Kem Nhung + Son Dưỡng",
+            "price" : 285.000,
+            "imgUrl":"https://static.comem.vn/uploads/February2023/son-kem-nhung-gao-dau_sp.png",
+            "description":"Combo Son Kem Nhung + Son dưỡng Cỏ Mềm được nhiều chị em tin tưởng sử dụng bởi đây là combo giúp nàng có đôi môi mềm mịn, rạng ngời tự nhiên, tự tin tỏa sáng. ",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          }
+
+
+    ],
+    "saleCombo": [
+        {
+            "id": 1,
+            "name":"Set Quà Sinh Nhật Cỏ Mềm 8 Năm Vươn Xa",
+            "price" : 850.000,
+            "imgUrl":"https://static.comem.vn/uploads/November2023/set-qua-sinh-nhat-co-mem-8-nam-vuon-xa-3_sp.jpg",
+            "description":"Hành trình 8 năm vươn xa của Cỏ Mềm cùng hàng triệu sản phẩm an lành ra đời với sứ mệnh lan toàn những giá trị LÀNH và THẬT, Cỏ Mềm trao gửi tận tay những yêu thương và sự chăm sóc tận tâm trọn vẹn cho cả gia đình bạn. Cùng khám phá Set quà sinh nhật Cỏ Mềm 8 năm gồm kem dưỡng ẩm Sâm 1700 và kem dưỡng mắt Sâm 1700 ngừa lão hoá da nhà Cỏ nhé!",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 2,
+            "name":"[SET QUÀ TẶNG] Kem Dưỡng Da Tay Trà Đào + Xịt Thơm Body Mist Colors",
+            "price" : 335.000,
+            "imgUrl":"https://static.comem.vn/uploads/September2023/kem-tay-tra-dao-body-mist-giftset_sp.jpg",
+            "description":"Set quà tặng nhà Cỏ Mềm bao gồm kem dưỡng da tay Trà Đào và xịt thơm Body mist chính là món quà tinh tế, giúp bạn bày tỏ tình cảm đối với nàng. Món quà tuy nhỏ này giúp bạn nói lời yêu đối với nửa kia một cách chân thành nhất!",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          }, {
+            "id": 3,
+            "name":"[SET QUÀ TẶNG] Bộ Trang Điểm 3 Bước (Kem Chống Nắng + Kem Nền + Kem Má)",
+            "price" : 560.000,
+            "imgUrl":"https://static.comem.vn/uploads/October2023/kcn_kem_nen_hh_kem_ma0.18x_sp.png",
+            "description":"Combo Trang điểm 3 bước là sự kết hợp của bộ ba hoàn toàn mới: Kem chống nắng, Kem nền và Kem má nhà Cỏ giúp các nàng có một make up look tự nhiên, xinh xắn và thu hút ánh nhìn.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 4,
+            "name":"[SET QUÀ TẶNG] Son Kem Nhung + Son Dưỡng + Lipscrub",
+            "price" : 330.000,
+            "imgUrl":"https://static.comem.vn/uploads/October2023/kem_nhung_gao_lips_scrub0.18x_sp.png",
+            "description":"Sự kết hợp bộ 3 sản phẩm son kem Nhung, son dưỡng cùng với 1 hũ tẩy tế bào chết cho môi sẽ giúp các nàng chăm sóc đôi môi mềm mịn căng mọng và hồng hào suốt 24 giờ. Đôi môi lì mượt, không khô, không bong tróc, khỏe mạnh hồng hào tự nhiên.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          },
+          {
+            "id": 5,
+            "name":"[SET QUÀ TẶNG] Bộ Chăm Sóc Da Tơ Tằm - Dưỡng Ẩm, Chống Lão Hoá Chuyên Sâu 3 Bước",
+            "price" : 300.000,
+            "imgUrl":"https://static.comem.vn/uploads/October2023/srm_toner_kem_duong0.18x_sp.png",
+            "description":"SỮA RỬA MẶT - TONER - KEM DƯỠNG ẨM chính là 3 bước thiết yếu giúp các bạn chăm da đơn giản và hiệu quả. Bộ sản phẩm mới được Cỏ Mềm phát triển từ chiết xuất Tơ tằm thuỷ phân có khả năng giữ lại hàm lượng lớn phân tử nước để cấp ẩm kéo dài giúp da mềm mịn và căng tràn sức sống.",
+            "data":[
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                },
+                {
+                    "imgDesc":"anh 1"
+                    
+                }
+            ]
+    
+          }
+    ],
+    "users":[
+        {
+            "id":"123",
+            "email":"hami@gmail.com",
+            "password":"12345678",
+            "name":"ha mi",
+            "number":"0325527965",
+            "avartar":"https://static.comem.vn/uploads/October2023/srm_toner_kem_duong0.18x_sp.png",
+            "token": "Token TEST",
+            "cart":[]
+        },
+        {
+            "id":"213",
+            "email":"haanh@gmail.com",
+            "password":"123098",
+            "name":"ha anh",
+            "number":"0325527965",
+            "avartar":"https://static.comem.vn/uploads/November2022/dau-goi-toc-may-co-mem_sp.jpg",
+            "token": "Token TEST",
+            "cart":[]
+        },
+        {
+            "id":"321",
+            "email":"hamin@gmail.com",
+            "password":"9876554",
+            "name":"ha min",
+            "number":"0325527965",
+            "avartar":"https://static.comem.vn/uploads/November2022/tinh-dau-treo-dong-que-sa-chanh_sp.jpg",
+            "token": "Token TEST",
+            "cart":[]
+        },
+        {
+            "id":"1111",
+            "email":"nguyenvana@gmail.com",
+            "password":"12345670",
+            "name":"nguyen van a",
+            "number":"0325527965",
+            "avartar":"https://static.comem.vn/uploads/November2022/tinh-dau-treo-dong-que-sa-chanh_sp.jpg",
+            "token": "Token TEST",
+            "cart":[]
+        }
+
+
+    ]
+  }

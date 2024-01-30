@@ -1,0 +1,89 @@
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        text-align: center;
+        margin-bottom: 2px;
+        font-style: italic;
+    }
+    .container{
+        margin-top: 50px;
+        width: 680px;
+        .content{
+            width:630px;
+            .from_group{
+                padding: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                label{
+                    font-size: 1.2rem;
+                    color: black;
+                }
+                input{
+                    width: 450px;
+                    height: 50px;
+                    border-radius: 7px;
+                    outline: none;
+                    border: 1px solid gainsboro;
+                    padding-left: 12px;
+                }
+
+            }
+        }
+        .content_changePassword{
+            // display: none;
+            width:630px;
+            .from_group{
+                padding: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                label{
+                    font-size: 1.2rem;
+                    color: black;
+                    width: 130px;
+                }
+                input{
+                    width: 450px;
+                    height: 50px;
+                    border-radius: 7px;
+                    outline: none;
+                    border: 1px solid gainsboro;
+                    padding-left: 12px;
+                }
+
+            }
+        }
+    }
+    
+    p{
+        text-align: center;
+        margin: 16px 0px;
+        color: #738136;
+        font-size: 16px;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        font-size: 1.2rem;
+    }
+    .update{
+        margin-left: 5px;
+        background-color: #738136;
+        border: none;
+        border-radius: 5px;
+        width: 620px;
+        height: 50px;
+        color: white;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 18px;
+        margin-bottom: 12px;
+        &:hover{
+            cursor: pointer;
+            background-color: #e67e22;
+        }
+        
+    }
+}

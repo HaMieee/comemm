@@ -1,0 +1,157 @@
+
+.app{
+    width: 100%;
+    background-color:#fff3f3;
+    
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+.site_header{
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #78cbcb;
+  
+    // background: url('https://assets.comem.vn/images/background-header-top-comem.jpg');
+
+}
+.header_logo:hover{
+    cursor: pointer;
+
+}
+.header_custom{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .book_btn{
+        margin-left: 30px;
+        a{
+         background: #fff;
+         padding: 12px 20px;
+         font-size: 16px;
+         font-weight: 400;
+         border: 1px solid transparent;
+         color: #009DFF;
+         border-radius: 8px;
+         text-decoration: none;
+         &:hover{
+             background: #fff;
+             color: #009DFF;
+             border: 1px solid #009DFF;
+         }
+        }
+    }
+    
+    
+
+}
+.header_custom:hover{
+    cursor: pointer;
+}
+.home{
+    text-transform:uppercase;
+    display: flex;
+     align-items: center;
+    // justify-content: center;
+    color: white;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.icon_home,.icon_admin, .icon_heart {
+    color: white;
+    font-size: 38px;
+     padding: 6px;
+
+  }
+  .icon_admin{
+    margin-left: 14px;
+  }
+
+.header_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 140px;
+    background: #6ce1d3;
+    height: 42px;    
+}
+
+.header_item1{
+    width: 70%;
+}
+.header_item1:hover{
+    cursor: pointer;
+}
+.header_item1_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li{
+        font-weight: 600;
+    }
+   
+}
+.header_item2{
+    cursor: pointer;
+}
+.header_item2_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    padding-top: 18px;
+    color:white;
+    list-style: none;
+    font-size: 1.2rem;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.header_item2{
+    width: 20%;
+}
+.banner_img{
+   
+}
+
+.img_1{
+    width: 100%;
+}
+.icon_admin{
+    display: flex;
+}
+.name{
+    padding-top: 5px;
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+
+.comem:hover .menu_comem{
+    display: block;
+}
+    
+.CoMem{
+    position: relative;
+}
+.menu_comem{
+    margin-top: 24px;
+    position: absolute;
+    top: 6px;
+    right: -60px;
+    width: 190px;
+    padding: 12px;
+    border-radius: 10px;
+    display:none;
+    z-index: 2;
+   
+}
